@@ -6,10 +6,12 @@ export const Header = () => {
             <header>
                 <nav>
                     <h1>Aksana Hlebik</h1>
-                    <NavLink to="/">About me</NavLink>
-                    <NavLink to="portfolio">Portfolio</NavLink>
-                    <NavLink to="contact">Contact</NavLink>
-                    <NavLink to="resume">Resume</NavLink>
+                    <div className = "navlink">
+                        <NavLink to="/">About me</NavLink>
+                        <NavLink to="portfolio">Portfolio</NavLink>
+                        <NavLink to="contact">Contact</NavLink>
+                        <NavLink to="resume">Resume</NavLink>
+                    </div>
                 </nav>
             </header>
       </div>

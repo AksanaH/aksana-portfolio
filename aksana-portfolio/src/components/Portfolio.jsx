@@ -1,53 +1,52 @@
 export const Portfolio = () => {
     return (
-      <div className="portfolio">
+    <div className="portfolio">
         <h2>Portfolio</h2>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui provident consequuntur vel omnis quisquam rem harum, maxime expedita, ullam ut dolore! Distinctio eos minima voluptatum totam id hic! Sapiente debitis quia illum officia obcaecati provident nulla odio molestiae suscipit quasi.</p>
-        <div className="container-projects" id="work">
-                    <div className="horiseon-code-refactor">
-                        <a href="https://aksanah.github.io/horiseon-code-refactor/">
-                            <div className="label-projects">
-                                <h3>Horiseon Marketing Agency</h3>
-                                <p>HTML/CSS</p>
-                            </div>
-                        </a>
+        <div className="flex-container-projects" id="work">
+                    <div className="container-projects" id="container">
+                        <div className="task-board" id="project">
+                            <a href="https://aksanah.github.io/task-board/">
+                                <div className="label-projects">
+                                    <h3>Task Board</h3>
+                                    <p>HTML/CSS</p>
+                                </div>
+                            </a>
+                        </div>
                     </div>
-                </div>
-                <div className="flex-container-projects">
-                    <div className="coffe-cafe" id="container">
-                        <a href=" ">
-                            <div className="label-projects">
-                                <h3>Coffe cafe</h3>
-                                <p>HTML/CSS</p>
-                            </div>
-                        </a>
+               
+                    <div className="container-projects" id="container">
+                        <div className="weather-dashboard" id="project">
+                            <a href="https://aksanah.github.io/weather-dashboard/">
+                                <div className="label-projects">
+                                    <h3>Weather Dashboard</h3>
+                                    <p>HTML/CSS</p>
+                                </div>
+                            </a>
+                        </div>
                     </div>
-                    <div className="hangman" id="container">
-                        <a href=" ">
-                            <div className="label-projects">
-                                <h3>Hangman</h3>
-                                <p>HTML/CSS/JavaScript</p>
-                            </div>
-                        </a>
+                    <div className="container-projects" id="container">
+                        <div className="note-taker" id="project">
+                            <a href="https://note-taker-4px8.onrender.com/">
+                                <div className="label-projects">
+                                    <h3>Note Taker</h3>
+                                    <p>HTML/CSS/JavaScript</p>
+                                </div>
+                            </a>
+                        </div>
                     </div>
-                    <div className="furniture-store" id="container">
-                        <a href=" ">
-                            <div className="label-projects">
-                                <h3>Furniture store</h3>
-                                <p>HTML/CSS/JavaScript</p>
-                            </div>
-                        </a>
+                    <div className="container-projects" id="container">
+                        <div className="tech-blog" id="project">
+                            <a href="https://tech-blog-jo8m.onrender.com/">
+                                <div className="label-projects">
+                                    <h3>Tech Blog</h3>
+                                    <p>HTML/CSS/JavaScript</p>
+                                </div>
+                            </a>
+                        </div>
                     </div>
-                    <div className="cats" id="container">
-                        <a href=" ">
-                            <div className="label-projects">
-                                <h3>Cats</h3>
-                                <p>HTML/CSS</p>
-                            </div>
-                        </a>
-                    </div>
-                </div>  
-      </div>
+               </div>  
+        
+    </div>
     );
 
   };export default Portfolio;
