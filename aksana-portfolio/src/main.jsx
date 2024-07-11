@@ -4,13 +4,10 @@ import App from './App.jsx';
 import './index.css';
 import Portfolio from './components/Portfolio.jsx'
 import About from './components/About.jsx';
-// const router = createBrowserRouter([
-//   {
-//     path: '/',
-//     element: <App />,
-//     children: [],
-//   },
-// ]);
+import Contact from './components/Contact.jsx';
+import Resume from './components/Resume.jsx';
+
+
 
 const router = createBrowserRouter([
   {
@@ -18,10 +15,9 @@ const router = createBrowserRouter([
     element: <App />,
     children: [
       { index: true, element: <About /> },
-      // Add other routes here
       { path: 'portfolio', element: <Portfolio /> },
-      // { path: 'contact', element: <Contact /> },
-      // { path: 'resume', element: <Resume /> },
+      { path: 'contact', element: <Contact /> },
+       { path: 'resume', element: <Resume /> },
     ],
   },
 ]);

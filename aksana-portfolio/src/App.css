@@ -139,3 +139,34 @@ main {
 #project:hover .label-projects {
   display: block; /* Show the label on hover */
 }
+
+input {
+  width: 100%;
+  margin: 10px auto;
+  padding: 10px;
+}
+
+form{
+  /* display: flex;
+  justify-content: center; */
+  flex-direction: column;
+  
+}
+
+.input{
+  display: flex; 
+  flex-direction: column;
+  width: 50%;
+}
+
+#message {
+  height: 300px;
+}
+
+.container-form{
+  margin-left: 100px;
+}
+
+button {
+  color: white;
+}
