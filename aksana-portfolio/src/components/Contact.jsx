@@ -13,7 +13,7 @@ export const Contact = () => {
                 </div>
                 <div className="input">
                         <label>Message:</label>
-                        <input type="text" id="message"></input>
+                        <textarea id="message" rows="10" required></textarea>
                 </div>
                 <button className="submit" type="submit">Submit</button>
             </form>

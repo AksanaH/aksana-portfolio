@@ -5,12 +5,14 @@ export const Portfolio = () => {
         <div className="flex-container-projects" id="work">
                     <div className="container-projects" id="container">
                         <div className="task-board" id="project">
-                            <a href="https://aksanah.github.io/task-board/">
+                        
                                 <div className="label-projects">
-                                    <h3>Task Board</h3>
+                                    <a href="https://github.com/AksanaH/task-board"> <i className="fab fa-github contact"></i></a>
+                                    <a href="https://aksanah.github.io/task-board/">
+                                        <h3>Task Board</h3>
+                                    </a>
                                     <p>HTML/CSS</p>
                                 </div>
-                            </a>
                         </div>
                     </div>
                
