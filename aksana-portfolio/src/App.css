@@ -90,8 +90,8 @@ main {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  align-items: flex-start;
-  gap: 20px;
+  align-items: center;
+  gap: 40px;
 }
 
 .container-projects {
@@ -106,19 +106,18 @@ main {
 }
 
 #project {
-  width: 300px;
-  height: 200px;
+  width: 350px;
+  height: 250px;
   place-items: center;
   background-size: cover;
   background-position: center;
   border: 2px solid black;
   padding: 10px;
-  /* position: relative;  */
-  /* overflow: hidden; */
 }
 
 .task-board {
   background-image: url(../public/images/task-board.png);
+  transition: opacity 0.3s ease;
 }
 
 .weather-dashboard {
@@ -127,7 +126,27 @@ main {
 
 .label-projects {
   display: none;
+  font-family: Comic Sans MS, Comic Sans, cursive;
 }
+
+.label-projects p {
+  margin: 0;
+}
+
+.container-links {
+  display: flex;
+  align-items: center;
+}
+
+.container-links h3 {
+  margin-left: 20px;
+}
+
+.container-links a {
+  font-family: Comic Sans MS, Comic Sans, cursive;
+  color: black;
+}
+
 
 .note-taker {
   background-image: url(../public/images/note-taker.png);
@@ -139,7 +158,12 @@ main {
 
 #project:hover .label-projects {
   display: block; /* Show the label on hover */
+  
 }
+#project:hover {
+  opacity: 0.5;
+}
+
 
 input {
   margin: 10px 0;
@@ -148,8 +172,6 @@ input {
 }
 
 form{
-  /* display: flex;
-  justify-content: center; */
   flex-direction: column;
   
 }
@@ -185,3 +207,10 @@ footer {
   margin: 20px;
 
 }
+
+i:hover {
+  font-size: 40px;
+  color: #646cff;
+}
+
+
