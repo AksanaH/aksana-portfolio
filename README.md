@@ -8,7 +8,7 @@ This portfolio was created with React.
 N/A
 
 ## Usage
-1. Open http: .
+1. Open http: https://incandescent-boba-06da9c.netlify.app/.
 2. The menu in a top right corner contains links. Click on them to find more details for specific topics.
 3. Scroll through the page to read the information about me, to find my projects and contact information.
 
