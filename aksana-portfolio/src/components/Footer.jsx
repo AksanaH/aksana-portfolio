@@ -4,7 +4,7 @@ import styled from "styled-components";
 
 const Footer = () => {
   return (
-    <StyledContact>
+    <StyledContact id="contact">
       <a href="https://github.com/AksanaH">
         <StyledIcon>
           <FaGithub />

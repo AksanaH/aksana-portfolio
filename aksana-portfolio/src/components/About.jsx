@@ -24,14 +24,14 @@ const About = () => {
       <ContainerButtons>
         <Button
           variant="light"
-          href="../public/resume/Aksana-Hlebik-resume.pdf"
+          href="../resume/Aksana-Hlebik-resume.pdf"
           download="Aksana-Hlebik-resume"
         >
           Download Resume
         </Button>
         <Button
           variant="light"
-          href="../public/certificate/Hlebik_Aksana_TCH-5003-069.pdf"
+          href="../certificate/Hlebik_Aksana_TCH-5003-069.pdf"
           download="Aksana-Hlebik-certificate"
         >
           Download Certificate
