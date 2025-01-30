@@ -1,8 +1,32 @@
-export const Footer = () => {
-    return (
-      <footer>
-       <a href="https://github.com/AksanaH"> <i className="fab fa-github contact"></i></a>
-       <a href="https://www.linkedin.com/in/aksana-hlebik-6b5969312/"><i className="fa-brands fa-linkedin contact"></i></a>
-      </footer>
-    );
-  };
+import { FaGithub } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
+import styled from "styled-components";
+
+const Footer = () => {
+  return (
+    <StyledContact>
+      <a href="https://github.com/AksanaH">
+        <StyledIcon>
+          <FaGithub />
+        </StyledIcon>
+      </a>
+      <a href="https://www.linkedin.com/in/aksana-hlebik-6b5969312/">
+        <StyledIcon>
+          <FaLinkedin />
+        </StyledIcon>
+      </a>
+    </StyledContact>
+  );
+};
+
+const StyledIcon = styled.div`
+  font-size: 2rem;
+  margin: 0 10px;
+  color: black;
+`;
+
+const StyledContact = styled.div`
+  display: flex;
+`;
+
+export default Footer;

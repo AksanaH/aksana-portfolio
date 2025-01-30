@@ -1,14 +1,67 @@
-export const About = () => {
-    return (
-      <div className="about">
-        <h2>About me</h2>
-        <div className="avatar-container">
-            <img className="avatar" src="../images/avatar.jpg" alt="avatar"/>
-        </div>
-        <p>Full-stack developer with experience creating diverse applications for a personal portfolio. Highly motivated, ambitious, and possessing a strong positive mindset. Open-minded and charismatic with excellent communication skills and a flexible, reliable work approach. Dynamic collaborator with a sociable nature, strong work ethic, and organizational skills, thriving in fast-paced environments. Eager to leverage technical expertise in a dynamic software development team.</p>
-        <p>I'm hard-working and I'm not afraid to face a challenge. I would describe myself as an honest and open person. My favorite hobby is traveling. I like to visit new countries, cities and places around the world. Along with this I like ride an attractions and always visit amusement parks.</p>
-      </div>
-    );
-  };
+import styled from "styled-components";
+import Button from "react-bootstrap/Button";
 
-  export default About;
+const About = () => {
+  return (
+    <ContainerAboutMe>
+      <h2>About me</h2>
+      <p>
+        Full-stack developer with experience creating diverse applications
+        showcased in a personal portfolio. Highly motivated, ambitious, and
+        driven by a strong positive mindset. Recognized for excellent
+        communication skills, adaptability, and a reliable work ethic. A dynamic
+        collaborator with a sociable and approachable nature, thriving in
+        fast-paced environments while maintaining strong organizational skills.
+        Passionate about leveraging technical expertise to contribute to
+        innovative and impactful software development teams.
+      </p>
+      <p>
+        Dedicated to hard work and embracing challenges with honesty and
+        openness. Enthusiastic about traveling, exploring new countries, cities,
+        and unique destinations worldwide. Particularly enjoys visiting
+        amusement parks and experiencing thrilling attractions.
+      </p>
+      <ContainerButtons>
+        <Button
+          variant="light"
+          href="../public/resume/Aksana-Hlebik-resume.pdf"
+          download="Aksana-Hlebik-resume"
+        >
+          Download Resume
+        </Button>
+        <Button
+          variant="light"
+          href="../public/certificate/Hlebik_Aksana_TCH-5003-069.pdf"
+          download="Aksana-Hlebik-certificate"
+        >
+          Download Certificate
+        </Button>
+        <Button variant="light" href="#contact">
+          Contact
+        </Button>
+      </ContainerButtons>
+    </ContainerAboutMe>
+  );
+};
+
+const ContainerAboutMe = styled.div`
+  padding: 20px;
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  p {
+    text-align: justify;
+  }
+`;
+
+const ContainerButtons = styled.div`
+  display: flex;
+  justify-content: center;
+  height: 40px;
+  .btn {
+    margin: 0 10px;
+    border-radius: 10px;
+    box-shadow: 10px -5px rgb(180, 180, 180);
+  }
+`;
+export default About;
