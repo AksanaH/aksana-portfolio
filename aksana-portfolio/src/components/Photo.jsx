@@ -34,6 +34,7 @@ const ContainerAvatar = styled.div`
 `;
 
 const StyledCard = styled(Card)`
+  margin: 20px;
   width: 15rem;
   height: 17rem;
   border-radius: 20px;
